@@ -1,0 +1,27 @@
+TextProcessStart    # 将 ****Die**** 变为 ****Live****
+
+****Die**** Single ****Die**** Line ****Live**** Comment ****Die**** // change and Comment discard
+
+Head /* ****Die****
+**********/ Tail    # 不会改变
+
+****Die**** Head /* ****Die****
+**********/ Tail    // change and Comment discard
+
+//****Die****
+<!-- ****Die****
+Head <!-- ****Die**** --> Tail
+****Bye**** -->
+
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+****Die**** @"****Die****"
+
+"""****Die****
+****Die****"""****Die****
+
+@"****Die****\"****Die****"
+
+@"****Die****\"
